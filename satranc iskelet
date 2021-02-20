@@ -1,0 +1,83 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void piyon();
+void sah();
+void fil();
+void vezir();
+void at();
+void kale();
+
+int main()
+{
+     int islem;
+     printf("1. Piyon\n");
+     printf("2. Sah\n");
+     printf("3. Fil\n");
+     printf("4. Vezir\n");
+     printf("5. At\n");
+     printf("6. Kale\n");
+
+   printf("Lutfen bir islem seciniz: ");
+   scanf("%d",&islem);
+   switch(islem){
+   case 1:
+       printf("Piyonun konumu: \n");
+       piyon();
+       break;
+   case 2:
+     printf("Sahin konumu: \n");
+     sah();
+      break;
+   case 3:
+      printf("Filin konumu: \n");
+      fil();
+       break;
+   case 4:
+        printf("Vezirin konumu: \n");
+        vezir();
+        break;
+   case 5:
+       printf("Atin konumu: \n");
+       at();
+         break;
+    case 6:
+      printf("Kalenin konumu: \n");
+      kale();
+     break;
+    case 7:
+    break;
+    default:
+        printf("Yanlis secim yaptıiniz. Lutfen tekrar deneyiniz.");
+        break;
+        }
+
+
+    return 0;
+}
+void piyon()
+{
+    printf("Tasin gidebilecegi konumlar: ");
+}
+
+void sah()
+{
+    printf("Tasin gidebilecegi konumlar: ");
+}
+void fil()
+{
+    printf("Tasin gidebilecegi konumlar: ");
+}
+void vezir()
+{
+    printf("Tasin gidebilecegi konumlar: ");
+}
+void at()
+{
+    printf("Tasin gidebilecegi konumlar: ");
+}
+
+void kale()
+{
+    printf("Tasin gidebilecegi konumlar: ");
+}
